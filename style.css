@@ -241,3 +241,32 @@ body {
 .footer-menu a:active{
   color: rgba(255, 255, 255, 0.3);  
 }
+
+.footer-social b{
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #a38b70;
+}
+
+.social-btn{
+  color: #ffffff;  
+}
+
+.footer-copyright{
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-copyright a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-copyright a:hover{
+  text-decoration: underline;
+}
+
+.footer-copyright a:active{
+  color: rgba(255, 255, 255, 0.3);  
+}
