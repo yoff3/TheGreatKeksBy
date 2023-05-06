@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+  color: #404040;
+  background-color: #ffffff;
+}
+
 .page-header,
 .page-footer {
   padding: 10px;
