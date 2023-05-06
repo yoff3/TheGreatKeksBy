@@ -228,3 +228,16 @@ body {
 .footer-menu ul{
   list-style: none;  
 }
+
+.footer-menu a {
+  color: #c3c3c3;
+  text-decoration: none;
+}
+
+.footer-menu a:hover{
+  color: #ffffff;
+}
+
+.footer-menu a:active{
+  color: rgba(255, 255, 255, 0.3);  
+}
