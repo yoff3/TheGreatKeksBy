@@ -74,6 +74,18 @@ body {
   color: #a38b70;
 }
 
+.cat-reference {
+  background-color: #f2f2f2;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+}
+
 .page-footer {
   margin-top: 20px;
 }
