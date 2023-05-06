@@ -40,19 +40,19 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.btn{
-  color: #a38b70;
+.promo {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+
+.promo a{
+  color: white;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
-.btn:hover{
-  color: #8d745a;  
-}
-
-.btn:active{
-  color: rgba(141, 116, 90, 0.3);  
-}
 
 .page-footer {
   margin-top: 20px;
