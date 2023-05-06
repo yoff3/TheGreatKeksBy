@@ -53,6 +53,19 @@ body {
   text-decoration: none;
 }
 
+.features ul{
+  list-style: none;  
+}
+
+.feature-item{
+  text-align: center;
+  border-left: 1px solid #d9d9d9;
+}
+
+.feature-item:first-child{
+  border-left: none;  
+}
+
 
 .page-footer {
   margin-top: 20px;
