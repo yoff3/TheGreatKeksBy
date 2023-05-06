@@ -14,6 +14,19 @@ body {
   background-color: #eeeeee;
 }
 
+.page-header {
+  color: #c3c3c3;
+  background-color: #363636;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+.main-nav li{
+  text-transform: uppercase;
+}
+
 .page-footer {
   margin-top: 20px;
 }
