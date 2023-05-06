@@ -8,12 +8,6 @@ body {
   background-color: #ffffff;
 }
 
-.page-header,
-.page-footer {
-  padding: 10px;
-  background-color: #eeeeee;
-}
-
 .page-header {
   padding: 10px;
   color: #c3c3c3;
@@ -147,12 +141,6 @@ body {
   color: #000000;
 }
 
-
-
-.page-footer {
-  margin-top: 20px;
-}
-
 .price-list {
   width: 100%;
   border-collapse: collapse;
@@ -216,4 +204,16 @@ body {
 
 .checkbox-area{
   border-bottom: 1px solid #d5d5d5;  
+}
+
+.page-footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #363636;
+  color: #c3c3c3;
+}
+
+.footer-middle,
+.footer-bottom{
+  border-top: 1px solid #5e5e5e;  
 }
