@@ -86,6 +86,10 @@ body {
   color: #a38b70;
 }
 
+.cat-reference img{
+  border-radius: 5px;  
+}
+
 .reference-title {
   font-size: 24px;
   font-weight: bold;
