@@ -15,6 +15,7 @@ body {
 }
 
 .page-header {
+  padding: 10px;
   color: #c3c3c3;
   background-color: #363636;
 }
@@ -40,6 +41,20 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.btn {
+  color: #a38b70;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #8d745a;
+}
+
+.btn:active {
+  color: rgba(141, 116, 90, 0.3);
+}
+
 .promo {
   font-weight: bold;
   font-size: 45px;
@@ -48,7 +63,7 @@ body {
   text-align: center;
 }
 
-.promo a{
+.promo a {
   color: white;
   text-decoration: none;
 }
