@@ -138,6 +138,15 @@ body {
   font-style: italic;
 }
 
+.popular-and-price{
+  background-color: #f2f2f2  
+}
+
+.catalog-item h3{
+  font-size: 16px;
+  color: #000000;
+}
+
 .page-footer {
   margin-top: 20px;
 }
