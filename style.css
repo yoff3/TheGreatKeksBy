@@ -217,3 +217,14 @@ body {
 .footer-bottom{
   border-top: 1px solid #5e5e5e;  
 }
+
+.footer-menu h3{
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #a38b70;
+}
+
+.footer-menu ul{
+  list-style: none;  
+}
