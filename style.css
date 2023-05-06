@@ -102,6 +102,18 @@ body {
   font-style: italic;
 }
 
+.reference-source a{
+  color: #a38b70;
+}
+
+.reference-source a:hover{
+  color: #8d745a;
+}
+
+.reference-source a:active{
+  color: rgba(141, 116, 90, 0.3);  
+}
+
 .page-footer {
   margin-top: 20px;
 }
