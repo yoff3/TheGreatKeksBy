@@ -66,6 +66,13 @@ body {
   border-left: none;  
 }
 
+.feature-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+}
 
 .page-footer {
   margin-top: 20px;
