@@ -392,6 +392,11 @@ body {
   color: rgba(255, 255, 255, 0.3);  
 }
 
+.footer-social{
+  float: left;
+  width: 490px;
+}
+
 .footer-social b{
   font-family: "Georgia", serif;
   font-weight: bold;
@@ -406,6 +411,8 @@ body {
 .footer-copyright{
   color: #ffffff;
   text-transform: uppercase;
+  float: right;
+  width: 236px;
 }
 
 .footer-copyright a{
