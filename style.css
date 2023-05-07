@@ -25,12 +25,25 @@ body {
   margin: 0 auto;
 }
 
+.header-logo{
+  float: left;
+  width: 205px;
+  height: 55px;
+}
+
+
 .main-nav {
   list-style: none;
+  float: left;
+  width: 520px;
 }
 
 .main-nav li{
   text-transform: uppercase;
+}
+
+.btn-quick-order{
+  float: right;  
 }
 
 .main-nav a {
