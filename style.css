@@ -362,6 +362,12 @@ body {
   border-top: 1px solid #5e5e5e;  
 }
 
+.footer-menu{
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+}
+
 .footer-menu h3{
   font-family: "Georgia", serif;
   font-size: 24px;
