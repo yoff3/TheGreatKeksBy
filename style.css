@@ -71,6 +71,7 @@ body {
 }
 
 .feature-item{
+  padding-top: 90px;
   text-align: center;
   border-left: 1px solid #d9d9d9;
 }
