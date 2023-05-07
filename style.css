@@ -12,6 +12,10 @@ body {
   padding: 10px;
   color: #c3c3c3;
   background-color: #363636;
+  background-image: url("./img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-nav {
@@ -67,12 +71,25 @@ body {
 }
 
 .feature-item{
+  padding-top: 90px;
   text-align: center;
   border-left: 1px solid #d9d9d9;
 }
 
 .feature-item:first-child{
   border-left: none;  
+}
+
+.feature-choice {
+  background: url("./img/feature-1.png") top center no-repeat;
+}
+
+.feature-quality{
+  background: url("./img/feature-2.png") top center no-repeat;
+}
+
+.feature-safety{
+  background: url("./img/feature-3.png") top center no-repeat;  
 }
 
 .feature-title {
@@ -175,9 +192,16 @@ body {
   font-weight: bold;
 }
 
+.feedback-form{
+  padding-right: 390px;
+  background: url("./img/write.jpg") 100% 40px no-repeat;  
+}
+
 .feedback-form-group {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
+}
+
+.feedback-form-group label {
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -187,7 +211,7 @@ body {
 .feedback-form textarea {
   font: inherit;
   color: inherit;
-  border: 2px solid  #d5d5d5;
+  border: 2px solid #d5d5d5;
 }
 
 .feedback-form input[type="text"]:hover,
