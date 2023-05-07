@@ -222,7 +222,29 @@ body {
 }
 
 .popular-and-price{
+  padding-top: 70px;
+  padding-bottom: 90px;
   background-color: #f2f2f2  
+}
+
+.popular-items{
+  margin-bottom: 50px;  
+}
+
+.catalog-item{
+  width: 308px;
+  margin-right: 48px;
+  float: left;
+}
+
+.catalog-item:last-child{
+  margin-right: 0;
+}
+
+
+.catalog-item img {
+  max-width: 100%;
+  height: auto;
 }
 
 .catalog-item h3{
