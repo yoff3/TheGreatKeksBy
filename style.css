@@ -9,6 +9,18 @@ body {
   background-color: #ffffff;
 }
 
+.container{
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .page-header {
   min-height: 490px;
   padding-top: 35px;
@@ -20,9 +32,8 @@ body {
   background-size: cover;
 }
 
-.container{
-  width: 1020px;
-  margin: 0 auto;
+.header-top{
+  margin-bottom: 125px;  
 }
 
 .header-logo{
@@ -31,8 +42,10 @@ body {
   height: 55px;
 }
 
-
 .main-nav {
+  margin: 0;
+  padding: 0;
+  margin-left: 125px;
   list-style: none;
   float: left;
   width: 520px;
