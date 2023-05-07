@@ -153,6 +153,18 @@ body {
   width: 830px;
 }
 
+.cat-reference dt{
+  margin: 0 0 10px 0;
+}
+
+.cat-reference dd{
+  margin: 0;
+}
+
+.theory-container:first-child{
+  margin-bottom: 70px;
+}
+
 .section-title {
   font-weight: bold;
   font-size: 45px;
@@ -161,7 +173,7 @@ body {
   color: #a38b70;
 }
 
-.cat-reference img{
+.cat-reference dd img{
   border-radius: 5px;  
 }
 
