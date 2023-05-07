@@ -105,18 +105,22 @@ body {
 }
 
 .features ul{
+  margin: 0;
+  padding: 0;
   list-style: none;  
 }
 
 .feature-item{
+  width: 279px;
   float: left;
+  padding: 0 30px;
   padding-top: 90px;
   text-align: center;
   border-left: 1px solid #d9d9d9;
 }
 
 .feature-item:first-child{
-  border-left: none;  
+  border-left-color: transparent;
 }
 
 .feature-choice {
