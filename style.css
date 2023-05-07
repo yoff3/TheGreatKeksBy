@@ -99,6 +99,11 @@ body {
   text-decoration: none;
 }
 
+.features{
+  padding-top: 50px;
+  padding-bottom: 55px;
+}
+
 .features ul{
   list-style: none;  
 }
