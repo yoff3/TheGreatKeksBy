@@ -144,7 +144,13 @@ body {
 }
 
 .cat-reference {
+  padding-top: 70px;
+  padding-bottom: 90px;
   background-color: #f2f2f2;
+}
+
+.cat-reference dl {
+  width: 830px;
 }
 
 .section-title {
