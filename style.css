@@ -338,6 +338,19 @@ body {
   color: #c3c3c3;
 }
 
+.footer-top{
+  margin-bottom: 45px;  
+}
+
+.footer-middle{
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-bottom{
+  padding-top: 50px;  
+}
+
 .footer-middle,
 .footer-bottom{
   border-top: 1px solid #5e5e5e;  
