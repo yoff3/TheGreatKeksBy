@@ -286,7 +286,13 @@ body {
   font-weight: bold;
 }
 
+.feedback{
+  padding-top:60px;
+  padding-bottom: 70px;
+}
+
 .feedback-form{
+  width: 630px;
   padding-right: 390px;
   background: url("./img/write.jpg") 100% 40px no-repeat;  
 }
