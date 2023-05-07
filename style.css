@@ -192,9 +192,16 @@ body {
   font-weight: bold;
 }
 
+.feedback-form{
+  padding-right: 390px;
+  background: url("./img/write.jpg") 100% 40px no-repeat;  
+}
+
 .feedback-form-group {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
+}
+
+.feedback-form-group label {
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -204,7 +211,7 @@ body {
 .feedback-form textarea {
   font: inherit;
   color: inherit;
-  border: 2px solid  #d5d5d5;
+  border: 2px solid #d5d5d5;
 }
 
 .feedback-form input[type="text"]:hover,
