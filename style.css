@@ -42,18 +42,29 @@ body {
   height: 55px;
 }
 
+.header-logo img {
+  width: 205px;
+  height: 55px;
+}
+
 .main-nav {
-  margin: 0;
+  margin: 18px 0 0 125px;
   padding: 0;
-  margin-left: 125px;
   list-style: none;
   float: left;
   width: 520px;
 }
 
 .main-nav li{
+  margin-right: 50px;
+  float: left;
   text-transform: uppercase;
 }
+
+.main-nav li:last-child{
+  margin-right: 0;  
+}
+
 
 .btn-quick-order{
   float: right;  
