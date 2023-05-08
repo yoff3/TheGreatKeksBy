@@ -146,6 +146,7 @@ body {
 }
 
 .feature-item{
+  position: relative;
   width: 279px;
   float: left;
   padding: 0 30px;
@@ -158,16 +159,27 @@ body {
   border-left-color: transparent;
 }
 
-.feature-choice {
-  background: url("./img/feature-1.png") top center no-repeat;
+.feature-item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 137px;
+  width: 65px;
+  height: 65px;
+  background-image: url("./img/sprite.png");
+  background-repeat: no-repeat;
 }
 
-.feature-quality{
-  background: url("./img/feature-2.png") top center no-repeat;
+.feature-choice::before {
+  background-position: -5px -5px;
 }
 
-.feature-safety{
-  background: url("./img/feature-3.png") top center no-repeat;  
+.feature-quality::before{
+  background-position: -5px -76px;  
+}
+
+.feature-safety::before{
+  background-position: 1px -143px;
 }
 
 .feature-title {
