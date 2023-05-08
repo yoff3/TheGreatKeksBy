@@ -80,20 +80,21 @@ body {
 
 .btn {
   display: inline-block;
+  width: 146px;
   padding: 10px; 
   font: inherit; 
-  width: 146px;
-  word-wrap: break-word;
   vertical-align: top;
+  text-align: center;  
   color: #a38b70;
   text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
+  text-decoration: none;  
+  word-wrap: break-word;
   border: 2px solid #a38b70;
   border-radius: 2px;
 }
 
 .btn-quick-order{
+  margin-top: 6px;
   float: right; 
   border-color: white;
   color: white; 
@@ -202,6 +203,8 @@ body {
 }
 
 .cat-reference dl {
+  margin: 0;
+  padding: 0;
   width: 830px;
 }
 
@@ -210,8 +213,29 @@ body {
 }
 
 .cat-reference dd{
+  position: relative;
+  min-height: 100px;
+  padding-left: 130px;
   margin: 0;
 }
+
+.cat-reference dd img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;  
+}
+
+.cat-reference .container{
+  position: relative;  
+}
+
+.cat-reference dd p{
+  margin: 0;  
+}
+
 
 .theory-container:first-child{
   margin-bottom: 70px;
@@ -232,14 +256,6 @@ body {
   right: 0;
 }
 
-.cat-reference dd img{
-  border-radius: 5px;  
-}
-
-.cat-reference .container{
-  position: relative;  
-}
-
 .reference-title {
   font-size: 24px;
   font-weight: bold;
@@ -253,6 +269,7 @@ body {
 }
 
 .reference-source a{
+  position: relative;
   color: #a38b70;
 }
 
@@ -262,6 +279,18 @@ body {
 
 .reference-source a:active{
   color: rgba(141, 116, 90, 0.3);  
+}
+
+.reference-source a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 8px;
+  height: 8px;
+  background-image: url("./img/sprite.png");
+  background-position: -5px -210px;
+  background-repeat: no-repeat;
 }
 
 .reviews{
