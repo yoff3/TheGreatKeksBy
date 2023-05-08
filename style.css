@@ -218,6 +218,7 @@ body {
 }
 
 .section-title {
+  margin: 0 180px 60px 0;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
@@ -225,8 +226,18 @@ body {
   color: #a38b70;
 }
 
+.to-full-reference{
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
 .cat-reference dd img{
   border-radius: 5px;  
+}
+
+.cat-reference .container{
+  position: relative;  
 }
 
 .reference-title {
