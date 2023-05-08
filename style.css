@@ -171,11 +171,16 @@ body {
 }
 
 .feature-title {
+  margin: 0 0 20px 0;
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
   font-family: "Georgia", serif;
   color: #a38b70;
+}
+
+.feature-item p{
+  margin: 0;
 }
 
 .cat-reference {
