@@ -12,7 +12,7 @@
           <div class="header-logo">
             <img src="img/logo.png" alt="The Great Keksby" width="205" height="55">
           </div>
-          <ul class="main-nav">
+          <ul class="main-nav clearfix">
             <li><a href="#">Магазин</a></li>
             <li><a href="#">Каталог</a></li>
             <li><a href="#">Отзывы</a></li>
@@ -49,7 +49,7 @@
     <div class="cat-reference">
       <div class="container">
         <h2 class="section-title">Немного теории</h2>
-        <a class="btn" title="Открыть справочник" href="#">Справочник</a>
+        <a class="btn to-full-reference" title="Открыть справочник" href="#">Справочник</a>
         <dl>
           <div class="theory-container">
             <dt class="reference-title">
@@ -79,7 +79,7 @@
     <div class="reviews">
       <div class="container">
         <h2 class="section-title">Довольные коты</h2>
-        <a class="btn" title="Посмотреть все отзывы" href="#">Все отзывы</a>
+        <a class="btn to-all-reviews" title="Посмотреть все отзывы" href="#">Все отзывы</a>
         <div class="reviews-list clearfix">
           <blockquote class="review-item">
             <p>Спасибо Кексу за давно напрашивающуюся идею! Набрал себе очков на все случаи жизни: для чтения и для вечеринки с котанами B-)</p>
@@ -98,28 +98,28 @@
     <div class="popular-and-price">
       <div class="container">
         <h2 class="section-title">Популярные товары</h2>
-        <a class="btn" title="Посмотреть все товары"  href="#">Каталог</a>
+        <a class="btn to-catalog" title="Посмотреть все товары"  href="#">Каталог</a>
         <div class="popular-items clearfix">
           <div class="catalog-item">
             <img src="img/glasses-1.jpg" alt="очки «Классика жанра»" width="306" height="206"> 
             <h3>Очки «Классика жанра»</h3>
-            <b>300 р.</b>
-            <a class="btn" href="#">Описание</a>
-            <a class="btn" href="#">Купить</a>
+            <b class="catalog-item-price">300 р.</b>
+            <a class="btn btn-info" href="#">Описание</a>
+            <a class="btn btn-buy" href="#">Купить</a>
           </div>
           <div class="catalog-item">
             <img src="img/glasses-2.jpg" alt="очки «Жалюзи»" width="306" height="206">
             <h3>Очки «Жалюзи»</h3>
-            <b>400 р.</b>
-            <a class="btn" href="#">Описание</a>
-            <a class="btn" href="#">Купить</a>
+            <b class="catalog-item-price">400 р.</b>
+            <a class="btn btn-info" href="#">Описание</a>
+            <a class="btn btn-buy" href="#">Купить</a>
           </div>
           <div class="catalog-item">
             <img src="img/glasses-3.jpg" alt="очки «Базилис»" width="306" height="206">
             <h3>Очки «Базилис»</h3>
-            <b>500 р.</b>
-            <a class="btn" href="#">Описание</a>
-            <a class="btn" href="#">Купить</a>
+            <b class="catalog-item-price">500 р.</b>
+            <a class="btn btn-info" href="#">Описание</a>
+            <a class="btn btn-buy" href="#">Купить</a>
           </div>
         </div>
         <h2 class="section-title">Прайс-лист на услуги</h2>
@@ -133,26 +133,26 @@
           <tr>
             <td class="price-number">1.</td>
             <td class="price-name">Стрижка</td>
-            <td>Грумер</td>
-            <td>500 руб.</td>
+            <td class="price-master">Грумер</td>
+            <td class="price-cost">500 руб.</td>
           </tr>
           <tr>
             <td class="price-number">2.</td>
             <td class="price-name">Заточка когтей</td>
-            <td>Грумер</td>
-            <td>300 руб.</td>
+            <td class="price-master">Грумер</td>
+            <td class="price-cost">300 руб.</td>
           </tr>
           <tr>
             <td class="price-number">3.</td>
             <td class="price-name">Накрутка усов</td>
-            <td>Грумер</td>
-            <td>100 руб.</td>
+            <td class="price-master">Грумер</td>
+            <td class="price-cost">100 руб.</td>
           </tr>
           <tr>
             <td class="price-number">4.</td>
             <td class="price-name">Подбор аксессуаров</td>
-            <td>Стилист</td>
-            <td>1500 руб.</td>
+            <td class="price-master">Стилист</td>
+            <td class="price-cost">1500 руб.</td>
           </tr>
         </table>
       </div>
@@ -168,13 +168,15 @@
             <label for="fullname">Представьтесь, пожалуйста:</label>
             <input type="text" name="fullname" id="fullname">
           </div>
-          <div class="feedback-form-group">
-            <label for="phone">Контактный телефон:</label>
-            <input type="text" name="phone" id="phone">
-          </div>
-          <div class="feedback-form-group">
-            <label for="email">Электронная почта:</label>
-            <input type="text" name="email" id="email">
+          <div class="clearfix">
+            <div class="feedback-form-group feedback-form-group-left-part">
+              <label for="phone">Контактный телефон:</label>
+              <input type="text" name="phone" id="phone">
+            </div>
+            <div class="feedback-form-group feedback-form-group-right-part">
+              <label for="email">Электронная почта:</label>
+              <input type="text" name="email" id="email">
+            </div>
           </div>
           <div class="checkbox-area">
             <label>
@@ -241,9 +243,9 @@
         <div class="footer-bottom clearfix">
           <div class="footer-social">
             <b>Давайте дружить!</b>
-            <a class="social-btn" href="https://vk.com/htmlacademy">Вконтакте</a>
-            <a class="social-btn" href="https://facebook.com/htmlacademy">Фейсбук</a>
-            <a class="social-btn" href="https://instagram.com/htmlacademy">Инстаграм</a>
+            <a class="social-btn social-btn-vk" href="https://vk.com/htmlacademy">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="https://facebook.com/htmlacademy">Фейсбук</a>
+            <a class="social-btn social-btn-in" href="https://instagram.com/htmlacademy">Инстаграм</a>
           </div>
           <div class="footer-copyright">
             С <span class="heart">любовью</span> для <a href="https://htmlacademy.ru">HTML Academy</a>
