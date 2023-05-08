@@ -298,6 +298,16 @@ body {
   padding-bottom: 90px;
 }
 
+.reviews .container{
+  position: relative;  
+}
+
+.to-all-reviews{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .review-item {
   margin: 0;
   margin-right: 80px;
@@ -306,6 +316,11 @@ body {
   width: 377px;
   float: left;
   border-left: 3px solid #a38b70;
+}
+
+.review-item p{
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .review-author {
