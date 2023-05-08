@@ -437,15 +437,25 @@ body {
 
 .price-list th,
 .price-list td { 
-  padding: 5px 10px 5px 10px;
+  padding: 10px 17px;
 }
 
 .price-list .price-number {
+  width: 15px;
   text-align: center;
 }
 
 .price-list .price-name {
+  width: 422px;
   font-weight: bold;
+}
+
+.price-list .price-master{
+  width: 306px;  
+}
+
+.price-list .price-cost{
+  width: 135px;  
 }
 
 .feedback{
