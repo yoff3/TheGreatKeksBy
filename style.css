@@ -588,11 +588,6 @@ body {
   height: 55px;
 }
 
-.footer-logo img{
-  width: 205px;
-  height: 55px;
-}
-
 .footer-middle,
 .footer-bottom{
   border-top: 1px solid #5e5e5e;  
@@ -605,8 +600,6 @@ body {
 }
 
 .footer-menu h3{
-  margin: 0;
-  margin-bottom: 20px;
   font-family: "Georgia", serif;
   font-size: 24px;
   font-weight: bold;
@@ -614,13 +607,7 @@ body {
 }
 
 .footer-menu ul{
-  margin: 0;
-  padding: 0;
   list-style: none;  
-}
-
-.footer-menu li{
-  margin-bottom: 15px;
 }
 
 .footer-menu a {
@@ -637,13 +624,11 @@ body {
 }
 
 .footer-social{
-  font-size: 0;
   float: left;
   width: 490px;
 }
 
 .footer-social b{
-  margin-right: 40px;
   font-family: "Georgia", serif;
   font-weight: bold;
   font-size: 24px;
@@ -651,52 +636,10 @@ body {
 }
 
 .social-btn{
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
-  vertical-align: middle;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   color: #ffffff;  
-  background-image: url("./img/sprite.png");
-  background-repeat: no-repeat;
-}
-
-.social-btn:hover{
-  border-color: rgba(255, 255, 255, 0.3);
-}
-
-.social-btn:active{
-  border-color: #ffffff;
-  opacity: 0.1;
-}
-
-.social-btn-vk{
-  background-position: 16px -238px;  
-}
-
-.social-btn-fb{
-  background-position: 19px -297px;  
-}
-
-.social-btn-in{
-  background-position: 13px -358px;  
-}
-
-.footer-copyright .heart{
-  display: inline-block;
-  width: 27px;
-  height: 24px;
-  font-size: 0;
-  vertical-align: middle;
-  background-image: url("img/sprite.png");
-  background-repeat: no-repeat;
-  background-position: -5px -419px;
 }
 
 .footer-copyright{
-  margin-top: 17px;
-  text-align: right;
   color: #ffffff;
   text-transform: uppercase;
   float: right;
