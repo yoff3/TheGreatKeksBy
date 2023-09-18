@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="ru">
   <head>
-    <meta charset="urf-8">
+    <meta charset="utf-8">
     <title>The Great Keksby</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -49,12 +49,12 @@
     <div class="cat-reference">
       <div class="container">
         <h2 class="section-title">Немного теории</h2>
-        <a class="btn to-full-reference" title="Открыть справочник" href="#">Справочник</a>
+        <a class="btn to-full-reference" href="#" title="Открыть справочник">Справочник</a>
         <dl>
           <div class="theory-container">
             <dt class="reference-title">
               Окрас кошек и котов
-              <i class="reference-source">источник: <a href="https://ru.wikipedia.org" target="_blank">wikipedia</a></i>
+              <i class="reference-source">источник: <a target="_blank" href="https://ru.wikipedia.org">wikipedia</a></i>
             </dt>
             <dd>
               <img src="img/article-1.jpg" alt="Окрас кошек и котов" width="100" height="100">
@@ -64,28 +64,27 @@
           <div class="theory-container">
             <dt class="reference-title">
               Кошкин дом
-              <i class="reference-source">источник: <a href="http://kotmur.spb.ru" target="_blank">kotmur.spb.ru</a></i>
+              <i class="reference-source">источник: <a target="_blank" href="http://kotmur.spb.ru">kotmur.spb.ru</a></i>
             </dt>
             <dd>
               <img src="img/article-2.jpg" alt="Кошкин дом" width="100" height="100">
-              <p>Нужен ли кошке Кошкин дом? Свой отдельный, обособленный от пространства городской квартиры Кошкин дом? Да, нужен! Нужен особый Кошкин дом, обустроенный по её вкусу с лесенкой, с когтеточкой, с замкнутым, своим, отдельным уголком в её, кошкином, доме.</p>
+              <p>Нужен ли кошке Кошкин дом? Свой отдельный, обособленный от пространства городской квартиры Кошкин дом? Да, нужен! Нужен особый Кошкин дом, обустроенный по ее вкусу с лесенкой, с когтеточкой, с замкнутым, своим, отдельным уголком в ее, кошкином, доме.</p>
             </dd>
           </div>
         </dl>
-      </div>  
+      </div>
     </div>
 
 
     <div class="reviews">
       <div class="container">
         <h2 class="section-title">Довольные коты</h2>
-        <a class="btn to-all-reviews" title="Посмотреть все отзывы" href="#">Все отзывы</a>
+        <a class="btn to-all-reviews" href="#" title="Посмотреть все отзывы">Все отзывы</a>
         <div class="reviews-list clearfix">
           <blockquote class="review-item">
             <p>Спасибо Кексу за давно напрашивающуюся идею! Набрал себе очков на все случаи жизни: для чтения и для вечеринки с котанами B-)</p>
             <cite class="review-author">Барсик, г. Москва</cite>
           </blockquote>
-
           <blockquote class="review-item">
             <p>Я просто не могу без шопинга и теперь не нужно тащить хозяйку в магазин, заказываю все аксессуары на сайте у Кекса онлайн!</p>
             <cite class="review-author">Мурка, г. Санкт-Петербург</cite>
@@ -98,10 +97,10 @@
     <div class="popular-and-price">
       <div class="container">
         <h2 class="section-title">Популярные товары</h2>
-        <a class="btn to-catalog" title="Посмотреть все товары"  href="#">Каталог</a>
+        <a class="btn to-catalog" href="#" title="Посмотреть все товары">Каталог</a>
         <div class="popular-items clearfix">
           <div class="catalog-item">
-            <img src="img/glasses-1.jpg" alt="очки «Классика жанра»" width="306" height="206"> 
+            <img src="img/glasses-1.jpg" alt="очки «Классика жанра»" width="306" height="206">
             <h3>Очки «Классика жанра»</h3>
             <b class="catalog-item-price">300 р.</b>
             <a class="btn btn-info" href="#">Описание</a>
@@ -122,6 +121,7 @@
             <a class="btn btn-buy" href="#">Купить</a>
           </div>
         </div>
+
         <h2 class="section-title">Прайс-лист на услуги</h2>
         <table class="price-list">
           <tr>
@@ -185,9 +185,7 @@
             </label>
           </div>
           <div class="feedback-form-group">
-            <label for="topic">
-              Тема обращения:
-            </label>
+            <label for="topic">Тема обращения:</label>
             <select name="topic" id="topic">
               <option value="1">Условия доставки</option>
               <option value="2">Возврат товара</option>
@@ -195,11 +193,8 @@
             </select>
           </div>
           <div class="feedback-form-group">
-            <label for="message">
-              Текст обращения:
-            </label>
-            <textarea name="message" id="message">
-            </textarea>
+            <label for="message">Текст обращения:</label>
+            <textarea name="message" id="message"></textarea>
           </div>
           <input class="btn" type="submit" value="Отправить">
         </form>
